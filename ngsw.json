@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1656936154457,
+  "index": "https://surya319.github.io/homescreen/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://surya319.github.io/homescreen/favicon.ico",
+        "https://surya319.github.io/homescreen/index.html",
+        "https://surya319.github.io/homescreen/main.795f43c453a6ed31.js",
+        "https://surya319.github.io/homescreen/manifest.webmanifest",
+        "https://surya319.github.io/homescreen/polyfills.9786bca37b6fc412.js",
+        "https://surya319.github.io/homescreen/runtime.79f6604da9a31931.js",
+        "https://surya319.github.io/homescreen/styles.3d7c9bb6d4efc7bf.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://surya319.github.io/homescreen/assets/icons/icon-128x128.png",
+        "https://surya319.github.io/homescreen/assets/icons/icon-144x144.png",
+        "https://surya319.github.io/homescreen/assets/icons/icon-152x152.png",
+        "https://surya319.github.io/homescreen/assets/icons/icon-192x192.png",
+        "https://surya319.github.io/homescreen/assets/icons/icon-384x384.png",
+        "https://surya319.github.io/homescreen/assets/icons/icon-512x512.png",
+        "https://surya319.github.io/homescreen/assets/icons/icon-72x72.png",
+        "https://surya319.github.io/homescreen/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://surya319.github.io/homescreen/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://surya319.github.io/homescreen/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://surya319.github.io/homescreen/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://surya319.github.io/homescreen/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://surya319.github.io/homescreen/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://surya319.github.io/homescreen/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://surya319.github.io/homescreen/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://surya319.github.io/homescreen/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://surya319.github.io/homescreen/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://surya319.github.io/homescreen/index.html": "9f60b5befc4f97d4be8e5e8432e67b8eda34bbff",
+    "https://surya319.github.io/homescreen/main.795f43c453a6ed31.js": "65173c594048debeb353169db669e4b5771d01d5",
+    "https://surya319.github.io/homescreen/manifest.webmanifest": "4083e05abf85a1015b28c84a5690f4ac8f17e1b8",
+    "https://surya319.github.io/homescreen/polyfills.9786bca37b6fc412.js": "94fc78713ebc177de5af3498004365877ea6ab4f",
+    "https://surya319.github.io/homescreen/runtime.79f6604da9a31931.js": "d90fe8212e454b8e10a7a90cda4cd5d6cafa15cf",
+    "https://surya319.github.io/homescreen/styles.3d7c9bb6d4efc7bf.css": "39a6ef7bd8bfbd5b280255646d21ea756e38b900"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
